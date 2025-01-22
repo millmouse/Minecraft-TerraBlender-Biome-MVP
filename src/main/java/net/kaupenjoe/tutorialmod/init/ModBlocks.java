@@ -43,7 +43,7 @@ public class ModBlocks
 //        REDWOOD_SAPLING = register(func, new SaplingBlockBOP(BOPTreeGrowers.REDWOOD, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), "redwood_sapling");
         REDWOOD_LEAVES = register(func, new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).strength(0.2F).randomTicks().sound(SoundType.GRASS).noOcclusion().isValidSpawn(ModBlocks::ocelotOrParrot).isSuffocating(ModBlocks::never).isViewBlocking(ModBlocks::never).ignitedByLava().isRedstoneConductor(ModBlocks::never)), "redwood_leaves");
         //TODO: bring back after creative tab works.
-//        REDWOOD_LOG = register(func, log(MapColor.CRIMSON_NYLIUM, MapColor.TERRACOTTA_ORANGE, SoundType.WOOD), "redwood_log");
+        REDWOOD_LOG = register(func, log(MapColor.CRIMSON_NYLIUM, MapColor.TERRACOTTA_ORANGE, SoundType.WOOD), "redwood_log");
 //        REDWOOD_WOOD = register(func, new RotatedPillarBlock(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASS).ignitedByLava().mapColor(MapColor.TERRACOTTA_ORANGE).strength(2.0F).sound(SoundType.WOOD)), "redwood_wood");
 //        WILLOW_VINE = register(func, new VineBlock(BlockBehaviour.Properties.of().randomTicks().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).replaceable().ignitedByLava().noCollission().strength(0.2F).sound(SoundType.GRASS)), "willow_vine");
 //        SPANISH_MOSS = register(func, new SpanishMossBottomBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).replaceable().ignitedByLava().randomTicks().noCollission().instabreak().sound(SoundType.GRASS)), "spanish_moss");

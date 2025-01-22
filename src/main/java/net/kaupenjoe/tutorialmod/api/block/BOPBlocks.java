@@ -4,7 +4,7 @@ import net.minecraft.world.level.block.Block;
 
 public class BOPBlocks {
     //Todo: bring back all when creative tab is solved.
-//    public static Block REDWOOD_LOG;
+    public static Block REDWOOD_LOG;
 //    public static Block REDWOOD_SAPLING;
     public static Block REDWOOD_LEAVES;
 //    public static Block REDWOOD_WOOD;
