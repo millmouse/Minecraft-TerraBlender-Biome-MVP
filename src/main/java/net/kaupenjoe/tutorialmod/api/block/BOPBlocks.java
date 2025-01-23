@@ -7,7 +7,7 @@ public class BOPBlocks {
     public static Block REDWOOD_LOG;
     public static Block REDWOOD_SAPLING;
     public static Block REDWOOD_LEAVES;
-//    public static Block REDWOOD_WOOD;
+    public static Block REDWOOD_WOOD;
 //    public static Block WILLOW_VINE;
 //    public static Block DEAD_BRANCH;
 //    public static Block SPANISH_MOSS;
