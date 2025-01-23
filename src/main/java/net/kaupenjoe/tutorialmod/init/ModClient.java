@@ -67,12 +67,12 @@ public class ModClient {
         RenderType cutoutRenderType = RenderType.cutout();
         RenderType translucentRenderType = RenderType.translucent();
 
-        //TODO: add this back later. why does it say unsupported exception? how in the world should glitchcore actually work?
-       /* RenderHelper.setRenderType(REDWOOD_LEAVES, transparentRenderType);
+        // Somehow this works. I don't know how, since this only sets the render type with UnsupportedOperationException(), which causes the black(alpha) to turn transparent. ???
+        RenderHelper.setRenderType(REDWOOD_LEAVES, transparentRenderType);
         RenderHelper.setRenderType(REDWOOD_SAPLING, cutoutRenderType);
-        RenderHelper.setRenderType(WILLOW_VINE, cutoutRenderType);
-        RenderHelper.setRenderType(SPANISH_MOSS, cutoutRenderType);
-        RenderHelper.setRenderType(DEAD_BRANCH, cutoutRenderType);*/
+//        RenderHelper.setRenderType(WILLOW_VINE, cutoutRenderType);
+//        RenderHelper.setRenderType(SPANISH_MOSS, cutoutRenderType);
+//        RenderHelper.setRenderType(DEAD_BRANCH, cutoutRenderType);
     }
 
     public static void registerRenderers()

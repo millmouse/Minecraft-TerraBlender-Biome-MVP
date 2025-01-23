@@ -7,7 +7,7 @@ public class BOPItems {
     public static Item BOP_ICON;
 
     public static Item REDWOOD_LOG;
-//    public static Item REDWOOD_SAPLING;
+    public static Item REDWOOD_SAPLING;
     public static Item REDWOOD_LEAVES;
 //    public static Item REDWOOD_WOOD;
 //    public static Item WILLOW_VINE;

@@ -26,7 +26,7 @@ public class ModItems
     public static void registerBlockItems(BiConsumer<ResourceLocation, Item> func)
     {
         //todo bring back missing classes when creative tab works again.
-//        REDWOOD_SAPLING = register(func, "redwood_sapling", new BlockItem(BOPBlocks.REDWOOD_SAPLING, new Item.Properties()));
+        REDWOOD_SAPLING = register(func, "redwood_sapling", new BlockItem(BOPBlocks.REDWOOD_SAPLING, new Item.Properties()));
         REDWOOD_LEAVES = register(func, "redwood_leaves", new BlockItem(BOPBlocks.REDWOOD_LEAVES, new Item.Properties()));
         REDWOOD_LOG = register(func, "redwood_log", new BlockItem(BOPBlocks.REDWOOD_LOG, new Item.Properties()));
 //        REDWOOD_WOOD = register(func, "redwood_wood", new BlockItem(BOPBlocks.REDWOOD_WOOD, new Item.Properties()));
