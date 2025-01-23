@@ -70,7 +70,7 @@ public class ModClient {
         // Somehow this works. I don't know how, since this only sets the render type with UnsupportedOperationException(), which causes the black(alpha) to turn transparent. ???
         RenderHelper.setRenderType(REDWOOD_LEAVES, transparentRenderType);
         RenderHelper.setRenderType(REDWOOD_SAPLING, cutoutRenderType);
-//        RenderHelper.setRenderType(WILLOW_VINE, cutoutRenderType);
+        RenderHelper.setRenderType(WILLOW_VINE, cutoutRenderType);
 //        RenderHelper.setRenderType(SPANISH_MOSS, cutoutRenderType);
 //        RenderHelper.setRenderType(DEAD_BRANCH, cutoutRenderType);
     }
@@ -95,12 +95,12 @@ public class ModClient {
     {
         //todo: bring back when creative tab mystery is solved.
 
-//        event.register((stack, tintIndex) -> {
-//                    BlockState state = ((BlockItem)stack.getItem()).getBlock().defaultBlockState();
-//                    BlockColors blockColors = Minecraft.getInstance().getBlockColors();
-//                    return blockColors.getColor(state, null, null, tintIndex);
-//                },
-//                BOPBlocks.WILLOW_VINE);
+        event.register((stack, tintIndex) -> {
+                    BlockState state = ((BlockItem)stack.getItem()).getBlock().defaultBlockState();
+                    BlockColors blockColors = Minecraft.getInstance().getBlockColors();
+                    return blockColors.getColor(state, null, null, tintIndex);
+                },
+                BOPBlocks.WILLOW_VINE);
     }
 
     public static void registerBlockColors(RegisterColorsEvent.Block event)
@@ -111,10 +111,10 @@ public class ModClient {
 //        event.register((state, world, pos, tintIndex) ->
 //                        world != null && pos != null ? BiomeColors.getAverageGrassColor(world, pos) : GrassColor.get(0.5D, 1.0D));
 //
-//        //Foliage Coloring
-//        event.register((state, world, pos, tintIndex) ->
-//                        world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(),
-//                 BOPBlocks.WILLOW_VINE);
+        //Foliage Coloring
+        event.register((state, world, pos, tintIndex) ->
+                        world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(),
+                 BOPBlocks.WILLOW_VINE);
 //
 //        //Rainbow Birch Leaf Coloring
 //        event.register((state, world, pos, tintIndex) ->

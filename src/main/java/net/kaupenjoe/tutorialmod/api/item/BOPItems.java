@@ -10,7 +10,7 @@ public class BOPItems {
     public static Item REDWOOD_SAPLING;
     public static Item REDWOOD_LEAVES;
     public static Item REDWOOD_WOOD;
-//    public static Item WILLOW_VINE;
+    public static Item WILLOW_VINE;
 
 //    public static Item SPANISH_MOSS;
 
