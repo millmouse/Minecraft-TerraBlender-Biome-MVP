@@ -1,10 +1,15 @@
 {
+  "itemGroup.tutorialmod": "Biome Test Mod!",
+
   "block.tutorialmod.willow_vine": "Willow Vine",
   "block.tutorialmod.spanish_moss": "Spanish Moss",
   "block.tutorialmod.spanish_moss_plant": "Spanish Moss Plant",
-  "itemGroup.tutorialmod": "Biome Test Mod!",
   "block.tutorialmod.redwood_leaves": "Redwood Leaves",
+  "block.tutorialmod.dead_log": "Dead Log",
+  "block.tutorialmod.dead_wood": "Dead Wood",
+  "block.tutorialmod.dead_branch": "Dead Branch",
   "block.tutorialmod.redwood_sapling": "Redwood Sapling",
   "block.tutorialmod.redwood_wood": "Redwood Wood",
   "block.tutorialmod.redwood_log": "Redwood Log"
+
 }
