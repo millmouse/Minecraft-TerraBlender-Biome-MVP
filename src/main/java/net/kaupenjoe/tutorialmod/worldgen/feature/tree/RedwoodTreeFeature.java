@@ -102,7 +102,6 @@ public class RedwoodTreeFeature extends BOPTreeFeature<TaigaTreeConfiguration>
     }
 
 
-    //TODO: had to pull. does this make a huge difference and cause error?
     @Override
     protected boolean doPlace(WorldGenLevel world, RandomSource random, BlockPos startPos, BiConsumer<BlockPos, BlockState> roots, BiConsumer<BlockPos, BlockState> logs, FoliagePlacer.FoliageSetter leaves, TreeConfiguration configBase)
     {

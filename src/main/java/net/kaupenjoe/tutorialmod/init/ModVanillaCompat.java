@@ -41,8 +41,6 @@ public class ModVanillaCompat
             }
         };
 
-        //todo: bring back when creative tab is solved.
-        //Flammability
         registerFlammable(BOPBlocks.REDWOOD_LEAVES, 30, 60);
         registerFlammable(BOPBlocks.REDWOOD_LOG, 5, 5);
         registerFlammable(BOPBlocks.REDWOOD_WOOD, 5, 5);
@@ -51,6 +49,7 @@ public class ModVanillaCompat
         registerFlammable(BOPBlocks.DEAD_BRANCH, 60, 100);
 
         //TODO: Bring back! but this causes crack right now.
+        //TODO: compostable.json
 //        registerCompostable(0.3F, BOPBlocks.REDWOOD_SAPLING);
 //        registerCompostable(0.3F, BOPBlocks.REDWOOD_LEAVES);
 //        registerCompostable(0.5F, BOPBlocks.WILLOW_VINE);

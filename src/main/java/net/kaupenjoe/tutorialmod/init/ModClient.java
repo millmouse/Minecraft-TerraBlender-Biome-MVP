@@ -94,7 +94,6 @@ public class ModClient {
 
     public static void registerItemColors(RegisterColorsEvent.Item event)
     {
-        //todo: bring back when creative tab mystery is solved.
 
         event.register((stack, tintIndex) -> {
                     BlockState state = ((BlockItem)stack.getItem()).getBlock().defaultBlockState();
@@ -107,46 +106,35 @@ public class ModClient {
     public static void registerBlockColors(RegisterColorsEvent.Block event)
     {
 
-        //todo: bring back when creative tab mystery is solved.
-//        //Grass Coloring
-//        event.register((state, world, pos, tintIndex) ->
-//                        world != null && pos != null ? BiomeColors.getAverageGrassColor(world, pos) : GrassColor.get(0.5D, 1.0D));
+        //Grass Coloring
+        event.register((state, world, pos, tintIndex) ->
+                        world != null && pos != null ? BiomeColors.getAverageGrassColor(world, pos) : GrassColor.get(0.5D, 1.0D));
 //
         //Foliage Coloring
         event.register((state, world, pos, tintIndex) ->
                         world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(),
                  BOPBlocks.WILLOW_VINE);
 //
-//        //Rainbow Birch Leaf Coloring
-//        event.register((state, world, pos, tintIndex) ->
-//                        world != null && pos != null ? getRainbowBirchColor(world, pos) : FoliageColor.getDefaultColor()
-//                );
-//
-//        //Flowerbed Coloring
-//        event.register((state, world, pos, tintIndex) -> {
-//                    if (tintIndex != 0) { return world != null && pos != null ? BiomeColors.getAverageGrassColor(world, pos) : GrassColor.getDefaultColor(); }
-//                    else { return -1; }});
-//
-//        //Lily Pad Coloring
-//        event.register((state, world, pos, tintIndex) -> {
-//                    return world != null && pos != null ? 2129968 : 7455580; });
+        //Rainbow Birch Leaf Coloring
+        event.register((state, world, pos, tintIndex) ->
+                        world != null && pos != null ? getRainbowBirchColor(world, pos) : FoliageColor.getDefaultColor()
+                );
+
+        //Flowerbed Coloring
+        event.register((state, world, pos, tintIndex) -> {
+                    if (tintIndex != 0) { return world != null && pos != null ? BiomeColors.getAverageGrassColor(world, pos) : GrassColor.getDefaultColor(); }
+                    else { return -1; }});
+
+        //Lily Pad Coloring
+        event.register((state, world, pos, tintIndex) -> {
+                    return world != null && pos != null ? 2129968 : 7455580; });
     }
 
 
     public static void registerWoodTypes()
     {
-//        SheetHelper.addWoodType(BOPWoodTypes.FIR);
-//        SheetHelper.addWoodType(BOPWoodTypes.PINE);
-//        SheetHelper.addWoodType(BOPWoodTypes.MAPLE);
         SheetHelper.addWoodType(BOPWoodTypes.REDWOOD);
-//        SheetHelper.addWoodType(BOPWoodTypes.MAHOGANY);
-//        SheetHelper.addWoodType(BOPWoodTypes.JACARANDA);
-//        SheetHelper.addWoodType(BOPWoodTypes.PALM);
         SheetHelper.addWoodType(BOPWoodTypes.WILLOW);
-//        SheetHelper.addWoodType(BOPWoodTypes.DEAD);
-//        SheetHelper.addWoodType(BOPWoodTypes.MAGIC);
-//        SheetHelper.addWoodType(BOPWoodTypes.UMBRAN);
-//        SheetHelper.addWoodType(BOPWoodTypes.HELLBARK);
     }
 
     public static int getRainbowBirchColor(BlockAndTintGetter world, BlockPos pos)

@@ -97,12 +97,11 @@ public abstract class BOPTreeFeature<FC extends BOPTreeConfiguration> extends Tr
     }
 
     protected boolean canReplace(LevelAccessor level, BlockPos pos) {
-//        return TreeFeature.isAirOrLeaves(level, pos) || level.isStateAtPosition(pos, (state) -> {
-//            Block block = state.getBlock();
-////            Todo: bring back when all blocks and items are back.
-//            return state.is(BlockTags.REPLACEABLE_BY_TREES) || state.is(BlockTags.SAPLINGS) || block == Blocks.VINE || block == BOPBlocks.WILLOW_VINE || block == BOPBlocks.DEAD_BRANCH || block == Blocks.MOSS_CARPET || block == BOPBlocks.SPANISH_MOSS || block instanceof BushBlock;
-//        });
-        return false;             //Todo: bring back all when creative tab is solved.
+        return TreeFeature.isAirOrLeaves(level, pos) || level.isStateAtPosition(pos, (state) -> {
+            Block block = state.getBlock();
+//            Todo: replaceable.json
+            return state.is(BlockTags.REPLACEABLE_BY_TREES) || state.is(BlockTags.SAPLINGS) || block == Blocks.VINE || block == BOPBlocks.WILLOW_VINE || block == BOPBlocks.DEAD_BRANCH || block == Blocks.MOSS_CARPET || block == BOPBlocks.SPANISH_MOSS || block instanceof BushBlock;
+        });
     }
 
     protected Property getLogAxisProperty(LevelAccessor level, BlockPos pos, FC config) {
