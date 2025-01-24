@@ -3,7 +3,7 @@
 This is a directory for tutorial purposes to demonstrate how to make a biome in Minecraft Forge. This is minimum viable product (MVP)
 This project represents a Minimum Viable Product (MVP), built to include only the basic features needed to make a single biome in a Minecraft Forge mod. As an MVP, it is intentionally kept basic and singular, with this sole focus being on using [GlitchCore](https://github.com/Glitchfiend/GlitchCore/tree/1.20.1) and [TerraBlender](https://www.curseforge.com/minecraft/mc-mods/terrablender) to successfully create a biome.
 
-Special Thanks: 
+### Special Thanks: 
 
 <p align="center"><img src="https://github.com/Glitchfiend/.github/blob/main/profile/bop.png"></p>
 
