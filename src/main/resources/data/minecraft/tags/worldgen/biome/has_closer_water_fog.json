@@ -1,0 +1,60 @@
+{
+  "values": [
+    {
+      "id": "tutorialmod:bayou",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:bog",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:floodplain",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:fungal_jungle",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:marsh",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:mystic_grove",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:ominous_woods",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:rainforest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:rocky_rainforest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:volcanic_plains",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:volcano",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wasteland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wasteland_steppe",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wetland",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "values": [
+	{
+      "id": "tutorialmod:dryland",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:lush_desert",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:lush_savanna",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:scrubland",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:volcanic_plains",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:volcano",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:wasteland",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:wasteland_steppe",
+      "required": false
+    },
+	{
+		"id": "tutorialmod:crystalline_chasm",
+		"required": false
+	},
+	{
+		"id": "tutorialmod:erupting_inferno",
+		"required": false
+	},
+	{
+		"id": "tutorialmod:undergrowth",
+		"required": false
+	},
+	{
+		"id": "tutorialmod:visceral_heap",
+		"required": false
+	},
+	{
+		"id": "tutorialmod:withered_abyss",
+		"required": false
+	}
+  ]
+}

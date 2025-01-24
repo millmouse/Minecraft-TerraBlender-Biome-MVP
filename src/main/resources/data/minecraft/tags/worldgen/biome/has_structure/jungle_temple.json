@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:rainforest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:floodplain",
+      "required": false
+    }
+  ]
+}

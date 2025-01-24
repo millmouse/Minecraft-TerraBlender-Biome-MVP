@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "tutorialmod:crystalline_chasm",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:erupting_inferno",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:undergrowth",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:visceral_heap",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:withered_abyss",
+            "required": false
+        }
+    ]
+}

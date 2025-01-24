@@ -1,0 +1,8 @@
+{
+  "values": [
+		{
+            "id": "tutorialmod:dryland",
+            "required": false
+        }
+  ]
+}

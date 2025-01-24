@@ -1,0 +1,248 @@
+{
+  "values": [
+    {
+      "id": "tutorialmod:aspen_glade",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:auroral_garden",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:bayou",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:bog",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:cold_desert",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:coniferous_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:crag",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:dead_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:dryland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:dune_beach",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:field",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:fir_clearing",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:floodplain",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:forested_field",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:fungal_jungle",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:glowing_grotto",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:grassland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:gravel_beach",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:highland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:hot_springs",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:jacaranda_glade",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:jade_cliffs",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:lavender_field",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:lush_desert",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:lush_savanna",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:maple_woods",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:marsh",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:mediterranean_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:moor",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:muskeg",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:mystic_grove",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:old_growth_dead_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:old_growth_woodland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:ominous_woods",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:orchard",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:origin_valley",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:overgrown_greens",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:pasture",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:prairie",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:pumpkin_patch",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:rainforest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:redwood_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:rocky_rainforest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:scrubland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:seasonal_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:shrubland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:snowblossom_grove",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:snowy_coniferous_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:snowy_fir_clearing",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:snowy_maple_woods",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:spider_nest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:tropics",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:tundra",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:volcanic_plains",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:volcano",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wasteland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wasteland_steppe",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wetland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wintry_origin_valley",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:woodland",
+      "required": false
+    }
+  ]
+}

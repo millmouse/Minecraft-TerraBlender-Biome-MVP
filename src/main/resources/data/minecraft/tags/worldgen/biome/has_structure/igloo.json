@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:cold_desert",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:snowy_coniferous_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:snowy_fir_clearing",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:snowy_maple_woods",
+      "required": false
+    }
+  ]
+}

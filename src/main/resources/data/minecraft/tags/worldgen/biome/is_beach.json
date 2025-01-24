@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:dune_beach",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:gravel_beach",
+      "required": false
+    }
+  ]
+}

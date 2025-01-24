@@ -34,6 +34,7 @@ public class ModBiomes {
         Regions.register(new BOPOverworldRegionRare(ModConfig.generation.bopOverworldRareRegionWeight));
     }
 
+    //NeoForge
     public static void bootstrapBiomes(BootstapContext<Biome> context) {
         HolderGetter<ConfiguredWorldCarver<?>> carverGetter = context.lookup(Registries.CONFIGURED_CARVER);
         HolderGetter<PlacedFeature> placedFeatureGetter = context.lookup(Registries.PLACED_FEATURE);

@@ -1,0 +1,45 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "tutorialmod:bog",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:coniferous_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:dead_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:field",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:fir_clearing",
+            "required": false
+        },
+		{
+            "id": "tutorialmod:hot_springs",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:maple_woods",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:old_growth_dead_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:ominous_woods",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:tundra",
+            "required": false
+        }
+    ]
+}

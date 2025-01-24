@@ -1,0 +1,93 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "tutorialmod:cold_desert",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:dryland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:glowing_grotto",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:grassland",
+            "required": false
+        },
+		{
+            "id": "tutorialmod:hot_springs",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:lavender_field",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:lush_desert",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:lush_savanna",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:pasture",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:prairie",
+            "required": false
+        },
+		{
+            "id": "tutorialmod:overgrown_greens",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:rocky_shrubland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:scrubland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:shrubland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:snowy_coniferous_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:snowy_fir_clearing",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:snowy_maple_woods",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:spider_nest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:volcanic_plains",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:volcano",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:wasteland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:wasteland_steppe",
+            "required": false
+        }
+    ]
+}

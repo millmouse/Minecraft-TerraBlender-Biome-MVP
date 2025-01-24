@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:crag",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:jade_cliffs",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "tutorialmod:origin_valley",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wintry_origin_valley",
+      "required": false
+    }
+  ]
+}

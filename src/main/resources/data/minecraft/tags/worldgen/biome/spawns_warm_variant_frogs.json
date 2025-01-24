@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "tutorialmod:bayou",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:dryland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:floodplain",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:fungal_jungle",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:lush_desert",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:lush_savanna",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:tropics",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:volcanic_plains",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:volcano",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wasteland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wasteland_steppe",
+      "required": false
+    }
+  ]
+}

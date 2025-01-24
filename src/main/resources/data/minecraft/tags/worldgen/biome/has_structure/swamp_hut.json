@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:bog",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:bayou",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:marsh",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:wetland",
+      "required": false
+    }
+  ]
+}

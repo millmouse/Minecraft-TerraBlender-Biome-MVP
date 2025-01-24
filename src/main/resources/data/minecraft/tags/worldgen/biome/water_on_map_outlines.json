@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "tutorialmod:bayou",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:hot_springs",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:floodplain",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:marsh",
+      "required": false
+    }
+  ]
+}

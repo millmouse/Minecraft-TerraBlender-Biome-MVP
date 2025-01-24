@@ -1,0 +1,61 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "tutorialmod:auroral_garden",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:dryland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:scrubland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:grassland",
+            "required": false
+        },
+		{
+            "id": "tutorialmod:hot_springs",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:lavender_field",
+            "required": false
+        },
+		{
+            "id": "tutorialmod:overgrown_greens",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:pasture",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:prairie",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:rocky_shrubland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:shrubland",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:snowy_coniferous_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:snowy_fir_clearing",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:snowy_maple_woods",
+            "required": false
+        }
+    ]
+}

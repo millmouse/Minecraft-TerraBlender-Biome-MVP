@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:floodplain",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:fungal_jungle",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:rainforest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:rocky_rainforest",
+      "required": false
+    }
+  ]
+}

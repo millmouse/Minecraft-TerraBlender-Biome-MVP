@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "tutorialmod:coniferous_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:field",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:maple_woods",
+            "required": false
+        },
+		{
+			"id": "tutorialmod:snowy_coniferous_forest",
+			"required": false
+		},
+        {
+            "id": "tutorialmod:tundra",
+            "required": false
+        }
+    ]
+}

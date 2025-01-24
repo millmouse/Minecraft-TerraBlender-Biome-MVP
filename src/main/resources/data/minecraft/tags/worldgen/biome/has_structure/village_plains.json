@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:grassland",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:mediterranean_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:prairie",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:shrubland",
+      "required": false
+    }
+  ]
+}

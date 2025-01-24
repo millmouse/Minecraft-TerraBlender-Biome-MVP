@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:dryland",
+      "required": false
+    },
+	{
+      "id": "tutorialmod:lush_desert",
+      "required": false
+    }
+  ]
+}

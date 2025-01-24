@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tutorialmod:dead_forest",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:ominous_woods",
+      "required": false
+    },
+    {
+      "id": "tutorialmod:woodland",
+      "required": false
+    }
+  ]
+}

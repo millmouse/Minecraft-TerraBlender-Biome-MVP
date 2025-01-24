@@ -1,0 +1,41 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "tutorialmod:aspen_glade",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:jacaranda_glade",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:mediterranean_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:mystic_grove",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:orchard",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:pumpkin_patch",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:redwood_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:seasonal_forest",
+            "required": false
+        },
+        {
+            "id": "tutorialmod:woodland",
+            "required": false
+        }
+    ]
+}
