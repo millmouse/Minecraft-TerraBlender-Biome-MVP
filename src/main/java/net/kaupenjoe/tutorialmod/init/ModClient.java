@@ -71,7 +71,8 @@ public class ModClient {
         RenderHelper.setRenderType(REDWOOD_LEAVES, transparentRenderType);
         RenderHelper.setRenderType(REDWOOD_SAPLING, cutoutRenderType);
         RenderHelper.setRenderType(WILLOW_VINE, cutoutRenderType);
-//        RenderHelper.setRenderType(SPANISH_MOSS, cutoutRenderType);
+        RenderHelper.setRenderType(SPANISH_MOSS, cutoutRenderType);
+        RenderHelper.setRenderType(SPANISH_MOSS_PLANT, cutoutRenderType);
 //        RenderHelper.setRenderType(DEAD_BRANCH, cutoutRenderType);
     }
 

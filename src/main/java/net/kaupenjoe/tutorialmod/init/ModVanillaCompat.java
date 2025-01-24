@@ -21,7 +21,7 @@ import static glitchcore.util.BlockHelper.*;
 public class ModVanillaCompat
 {
 
-//    @SuppressWarnings("all")
+    @SuppressWarnings("all")
     public static void setup()
     {
         //Dispenser Behavior
@@ -44,10 +44,10 @@ public class ModVanillaCompat
         //todo: bring back when creative tab is solved.
         //Flammability
         registerFlammable(BOPBlocks.REDWOOD_LEAVES, 30, 60);
-//        registerFlammable(BOPBlocks.REDWOOD_LOG, 5, 5);
-//        registerFlammable(BOPBlocks.REDWOOD_WOOD, 5, 5);
-//        registerFlammable(BOPBlocks.WILLOW_VINE, 15, 100);
-//        registerFlammable(BOPBlocks.SPANISH_MOSS, 60, 100);
+        registerFlammable(BOPBlocks.REDWOOD_LOG, 5, 5);
+        registerFlammable(BOPBlocks.REDWOOD_WOOD, 5, 5);
+        registerFlammable(BOPBlocks.WILLOW_VINE, 15, 100);
+        registerFlammable(BOPBlocks.SPANISH_MOSS, 60, 100);
 //        registerFlammable(BOPBlocks.DEAD_BRANCH, 60, 100);
 
         //TODO: Bring back! but this causes crack right now.

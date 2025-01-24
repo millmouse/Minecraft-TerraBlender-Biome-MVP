@@ -2,6 +2,8 @@ package net.kaupenjoe.tutorialmod.init;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.block.SaplingBlockBOP;
+import net.kaupenjoe.tutorialmod.block.SpanishMossBlock;
+import net.kaupenjoe.tutorialmod.block.SpanishMossBottomBlock;
 import net.kaupenjoe.tutorialmod.block.trees.BOPTreeGrowers;
 import net.kaupenjoe.tutorialmod.worldgen.BOPSurfaceRuleData;
 import net.minecraft.core.BlockPos;
@@ -47,8 +49,9 @@ public class ModBlocks
         REDWOOD_LOG = register(func, log(MapColor.CRIMSON_NYLIUM, MapColor.TERRACOTTA_ORANGE, SoundType.WOOD), "redwood_log");
         REDWOOD_WOOD = register(func, new RotatedPillarBlock(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASS).ignitedByLava().mapColor(MapColor.TERRACOTTA_ORANGE).strength(2.0F).sound(SoundType.WOOD)), "redwood_wood");
         WILLOW_VINE = register(func, new VineBlock(BlockBehaviour.Properties.of().randomTicks().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).replaceable().ignitedByLava().noCollission().strength(0.2F).sound(SoundType.GRASS)), "willow_vine");
-//        SPANISH_MOSS = register(func, new SpanishMossBottomBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).replaceable().ignitedByLava().randomTicks().noCollission().instabreak().sound(SoundType.GRASS)), "spanish_moss");
-//        DEAD_BRANCH = register(func, new DeadBranchBlock(BlockBehaviour.Properties.of().pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_GRAY).ignitedByLava().noCollission().instabreak().sound(SoundType.WOOD)), "dead_branch");
+        SPANISH_MOSS = register(func, new SpanishMossBottomBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).replaceable().ignitedByLava().randomTicks().noCollission().instabreak().sound(SoundType.GRASS)), "spanish_moss");
+        SPANISH_MOSS_PLANT = register(func, new SpanishMossBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).replaceable().ignitedByLava().noCollission().instabreak().sound(SoundType.GRASS)), "spanish_moss_plant");
+        //        DEAD_BRANCH = register(func, new DeadBranchBlock(BlockBehaviour.Properties.of().pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_GRAY).ignitedByLava().noCollission().instabreak().sound(SoundType.WOOD)), "dead_branch");
     }
 
     private static RotatedPillarBlock log(MapColor MapColor, MapColor MapColor2, SoundType soundType) {

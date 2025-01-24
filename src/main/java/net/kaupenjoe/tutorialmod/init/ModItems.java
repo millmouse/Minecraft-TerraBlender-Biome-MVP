@@ -31,8 +31,9 @@ public class ModItems
         REDWOOD_LOG = register(func, "redwood_log", new BlockItem(BOPBlocks.REDWOOD_LOG, new Item.Properties()));
         REDWOOD_WOOD = register(func, "redwood_wood", new BlockItem(BOPBlocks.REDWOOD_WOOD, new Item.Properties()));
         WILLOW_VINE = register(func, "willow_vine", new BlockItem(BOPBlocks.WILLOW_VINE, new Item.Properties()));
-//        SPANISH_MOSS = register(func, "spanish_moss", new BlockItem(BOPBlocks.SPANISH_MOSS, new Item.Properties()));
-//        DEAD_BRANCH = register(func, "dead_branch", new BlockItem(BOPBlocks.DEAD_BRANCH, new Item.Properties()));
+        SPANISH_MOSS = register(func, "spanish_moss", new BlockItem(BOPBlocks.SPANISH_MOSS, new Item.Properties()));
+        SPANISH_MOSS_PLANT = register(func, "spanish_moss_plant", new BlockItem(BOPBlocks.SPANISH_MOSS_PLANT, new Item.Properties()));
+        //        DEAD_BRANCH = register(func, "dead_branch", new BlockItem(BOPBlocks.DEAD_BRANCH, new Item.Properties()));
     }
 
     private static Item register(BiConsumer<ResourceLocation, Item> func, Item item, String name)

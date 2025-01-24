@@ -18,7 +18,7 @@ public class ModCreativeTab
     @SuppressWarnings("deprecation")
     public static void registerCreativeTabs(BiConsumer<ResourceLocation, CreativeModeTab> func)
     {
-        List<Item> ITEM_BLACKLIST = ImmutableList.of(BOPItems.BOP_ICON);
+        List<Item> ITEM_BLACKLIST = ImmutableList.of(BOPItems.BOP_ICON, BOPItems.SPANISH_MOSS_PLANT);
 
         var tab = CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
                 .icon(() -> new ItemStack(BOPItems.BOP_ICON))
