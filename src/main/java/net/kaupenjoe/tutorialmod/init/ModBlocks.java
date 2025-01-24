@@ -31,8 +31,7 @@ import static net.kaupenjoe.tutorialmod.api.block.BOPBlocks.*;
 public class ModBlocks {
     public static void setup(BiConsumer<ResourceLocation, Block> func) {
         registerBlocks(func);
-        //TODO: add back!
-//        registerSurfaceRules();
+        registerSurfaceRules();
     }
 
     private static void registerSurfaceRules() {
@@ -40,7 +39,6 @@ public class ModBlocks {
     }
 
     private static void registerBlocks(BiConsumer<ResourceLocation, Block> func) {
-        //TODO: finish the missing classes !!
         REDWOOD_SAPLING = register(func, new SaplingBlockBOP(BOPTreeGrowers.REDWOOD, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), "redwood_sapling");
         REDWOOD_LEAVES = register(func, new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).pushReaction(PushReaction.DESTROY).strength(0.2F).randomTicks().sound(SoundType.GRASS).noOcclusion().isValidSpawn(ModBlocks::ocelotOrParrot).isSuffocating(ModBlocks::never).isViewBlocking(ModBlocks::never).ignitedByLava().isRedstoneConductor(ModBlocks::never)), "redwood_leaves");
         REDWOOD_LOG = register(func, log(MapColor.CRIMSON_NYLIUM, MapColor.TERRACOTTA_ORANGE, SoundType.WOOD), "redwood_log");

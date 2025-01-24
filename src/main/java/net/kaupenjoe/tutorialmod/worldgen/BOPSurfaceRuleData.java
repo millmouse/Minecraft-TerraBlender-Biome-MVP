@@ -15,31 +15,18 @@ import net.minecraft.world.level.levelgen.placement.CaveSurface;
 public class BOPSurfaceRuleData {
 
     private static final SurfaceRules.RuleSource AIR = makeStateRule(Blocks.AIR);
-    private static final SurfaceRules.RuleSource BEDROCK = makeStateRule(Blocks.BEDROCK);
-    private static final SurfaceRules.RuleSource LIGHT_BLUE_TERRACOTTA = makeStateRule(Blocks.LIGHT_BLUE_TERRACOTTA);
-    private static final SurfaceRules.RuleSource CYAN_TERRACOTTA = makeStateRule(Blocks.CYAN_TERRACOTTA);
-    private static final SurfaceRules.RuleSource LIGHT_GRAY_TERRACOTTA = makeStateRule(Blocks.LIGHT_GRAY_TERRACOTTA);
-    private static final SurfaceRules.RuleSource TERRACOTTA = makeStateRule(Blocks.TERRACOTTA);
     private static final SurfaceRules.RuleSource STONE = makeStateRule(Blocks.STONE);
-    private static final SurfaceRules.RuleSource DIRT = makeStateRule(Blocks.DIRT);
     private static final SurfaceRules.RuleSource PODZOL = makeStateRule(Blocks.PODZOL);
-    private static final SurfaceRules.RuleSource COARSE_DIRT = makeStateRule(Blocks.COARSE_DIRT);
     private static final SurfaceRules.RuleSource GRAVEL = makeStateRule(Blocks.GRAVEL);
     private static final SurfaceRules.RuleSource SAND = makeStateRule(Blocks.SAND);
     private static final SurfaceRules.RuleSource SANDSTONE = makeStateRule(Blocks.SANDSTONE);
     private static final SurfaceRules.RuleSource SNOW_BLOCK = makeStateRule(Blocks.SNOW_BLOCK);
     private static final SurfaceRules.RuleSource POWDER_SNOW = makeStateRule(Blocks.POWDER_SNOW);
     private static final SurfaceRules.RuleSource WATER = makeStateRule(Blocks.WATER);
-    private static final SurfaceRules.RuleSource LAVA = makeStateRule(Blocks.LAVA);
-    private static final SurfaceRules.RuleSource MAGMA = makeStateRule(Blocks.MAGMA_BLOCK);
-    private static final SurfaceRules.RuleSource OBSIDIAN = makeStateRule(Blocks.OBSIDIAN);
-    private static final SurfaceRules.RuleSource TUFF = makeStateRule(Blocks.TUFF);
     private static final SurfaceRules.RuleSource SMOOTH_BASALT = makeStateRule(Blocks.SMOOTH_BASALT);
 
     // Nether
-    private static final SurfaceRules.RuleSource NETHERRACK = makeStateRule(Blocks.NETHERRACK);
     private static final SurfaceRules.RuleSource BASALT = makeStateRule(Blocks.BASALT);
-    private static final SurfaceRules.RuleSource BLACKSTONE = makeStateRule(Blocks.BLACKSTONE);
 
 
     private static SurfaceRules.RuleSource makeStateRule(Block p_194811_) {
@@ -176,7 +163,7 @@ public class BOPSurfaceRuleData {
 //        );
 
 // Combine All Surface Conditions into a Sequence
-        return SurfaceRules.sequence(
+//        return SurfaceRules.sequence(
 //                cragBiomeRule,
 //                rockyRainforestBiomeRule,
 //                SurfaceRules.ifTrue(
@@ -257,6 +244,21 @@ public class BOPSurfaceRuleData {
 //                        SurfaceRules.ifTrue(surfaceNoiseAbove(1.4D), STONE)
 //                ),
 //                SurfaceRules.ifTrue(SurfaceRules.isBiome(BOPBiomes.WASTELAND), DRIED_SALT)
+//        );
+
+        return SurfaceRules.sequence(
+                SurfaceRules.ifTrue(
+                        SurfaceRules.ON_FLOOR,
+                        SurfaceRules.sequence(
+                                SurfaceRules.ifTrue(
+                                        isAtOrAboveWaterLevel,
+                                        SurfaceRules.sequence(
+//                                                oldGrowthWoodlandRule,
+                                                SurfaceRules.ifTrue(SurfaceRules.isBiome(BOPBiomes.REDWOOD_FOREST), PODZOL)
+                                        )
+                                )
+                        )
+                )
         );
 
     }
