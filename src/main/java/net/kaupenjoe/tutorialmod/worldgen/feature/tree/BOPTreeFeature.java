@@ -54,8 +54,6 @@ public abstract class BOPTreeFeature<FC extends BOPTreeConfiguration> extends Tr
         BlockState directedLog = (axis != null && logAxisProperty != null) ? log.setValue(logAxisProperty, axis) : log;
 
         if (canReplace(level, pos)) {
-            // Logs must be added to the "changedBlocks" so that the leaves have their distance property updated,
-            // preventing incorrect decay
             logs.accept(pos, directedLog);
             return true;
         }
