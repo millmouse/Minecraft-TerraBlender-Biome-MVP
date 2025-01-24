@@ -48,7 +48,7 @@ public class ModVanillaCompat
         registerFlammable(BOPBlocks.REDWOOD_WOOD, 5, 5);
         registerFlammable(BOPBlocks.WILLOW_VINE, 15, 100);
         registerFlammable(BOPBlocks.SPANISH_MOSS, 60, 100);
-//        registerFlammable(BOPBlocks.DEAD_BRANCH, 60, 100);
+        registerFlammable(BOPBlocks.DEAD_BRANCH, 60, 100);
 
         //TODO: Bring back! but this causes crack right now.
 //        registerCompostable(0.3F, BOPBlocks.REDWOOD_SAPLING);

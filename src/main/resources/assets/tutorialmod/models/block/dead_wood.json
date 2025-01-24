@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "tutorialmod:block/dead_log",
+    "side": "tutorialmod:block/dead_log"
+  }
+}

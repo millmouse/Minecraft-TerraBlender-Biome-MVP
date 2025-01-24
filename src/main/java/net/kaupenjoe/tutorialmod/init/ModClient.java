@@ -73,7 +73,7 @@ public class ModClient {
         RenderHelper.setRenderType(WILLOW_VINE, cutoutRenderType);
         RenderHelper.setRenderType(SPANISH_MOSS, cutoutRenderType);
         RenderHelper.setRenderType(SPANISH_MOSS_PLANT, cutoutRenderType);
-//        RenderHelper.setRenderType(DEAD_BRANCH, cutoutRenderType);
+        RenderHelper.setRenderType(DEAD_BRANCH, cutoutRenderType);
     }
 
     public static void registerRenderers()

@@ -15,7 +15,9 @@ public class BOPItems {
     public static Item SPANISH_MOSS;
     public static Item SPANISH_MOSS_PLANT;
 
+    public static Item DEAD_BRANCH;
+    public static Item DEAD_WOOD;
+    public static Item DEAD_LOG;
 
-//    public static Item DEAD_BRANCH;
 
 }
