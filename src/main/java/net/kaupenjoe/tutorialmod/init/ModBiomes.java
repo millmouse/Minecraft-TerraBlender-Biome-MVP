@@ -21,52 +21,38 @@ import terrablender.api.Regions;
 import java.lang.reflect.Field;
 import java.util.Map;
 
-public class ModBiomes
-{
-    public static void setup()
-    {
+public class ModBiomes {
+    public static void setup() {
         // Register our biomes
         registerVillagerTypes();
     }
 
-    public static void setupTerraBlender()
-    {
+    public static void setupTerraBlender() {
         // Register our regions
         Regions.register(new BOPOverworldRegionPrimary(ModConfig.generation.bopPrimaryOverworldRegionWeight));
         Regions.register(new BOPOverworldRegionSecondary(ModConfig.generation.bopSecondaryOverworldRegionWeight));
         Regions.register(new BOPOverworldRegionRare(ModConfig.generation.bopOverworldRareRegionWeight));
     }
 
-    public static void bootstrapBiomes(BootstapContext<Biome> context)
-    {
+    public static void bootstrapBiomes(BootstapContext<Biome> context) {
         HolderGetter<ConfiguredWorldCarver<?>> carverGetter = context.lookup(Registries.CONFIGURED_CARVER);
         HolderGetter<PlacedFeature> placedFeatureGetter = context.lookup(Registries.PLACED_FEATURE);
 
         register(context, BOPBiomes.REDWOOD_FOREST, BOPOverworldBiomes.redwoodForest(placedFeatureGetter, carverGetter));
     }
 
-    private static void registerVillagerTypes()
-    {
+    private static void registerVillagerTypes() {
         registerVillagerType(BOPBiomes.REDWOOD_FOREST, VillagerType.PLAINS);
     }
 
-    private static void register(BootstapContext<Biome> context, ResourceKey<Biome> key, Biome biome)
-    {
+    private static void register(BootstapContext<Biome> context, ResourceKey<Biome> key, Biome biome) {
         context.register(key, biome);
     }
 
-public static void registerVillagerType(ResourceKey<Biome> key, VillagerType type) {
-    try {
-        Field byBiomeField = VillagerType.class.getDeclaredField("BY_BIOME");
-        byBiomeField.setAccessible(true); // Bypass the private access
-
-        // Cast and update the map
-        @SuppressWarnings("unchecked")
-        Map<ResourceKey<Biome>, VillagerType> byBiome =
-                (Map<ResourceKey<Biome>, VillagerType>) byBiomeField.get(null);
-        byBiome.put(key, type);
-    } catch (NoSuchFieldException | IllegalAccessException e) {
-        e.printStackTrace(); // Handle exceptions appropriately?
+    // This is successfully "ignored" by the accesstransformer.cfg in META-INF, referenced by build.gradle.
+    private static void registerVillagerType(ResourceKey<Biome> key, VillagerType type) {
+        if (ModConfig.isBiomeEnabled(key)) {
+            VillagerType.BY_BIOME.put(key, type);
+        }
     }
-}
 }
