@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "tutorialmod:redwood_tree_medium",
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "tutorialmod:redwood_tree"
+      },
+      {
+        "chance": 0.5,
+        "feature": "tutorialmod:redwood_tree_large"
+      }
+    ]
+  }
+}
