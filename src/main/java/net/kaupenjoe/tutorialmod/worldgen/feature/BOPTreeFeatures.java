@@ -20,9 +20,33 @@ public class BOPTreeFeatures {
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context)
     {
 
-        register(context, BOPTreeFeatures.REDWOOD_TREE, BOPBaseFeatures.REDWOOD_TREE, createRedwood(BOPBlocks.REDWOOD_LOG).minHeight(10).maxHeight(30).build());
-        register(context, BOPTreeFeatures.REDWOOD_TREE_MEDIUM, BOPBaseFeatures.REDWOOD_TREE, createRedwood(BOPBlocks.REDWOOD_WOOD).minHeight(25).maxHeight(40).trunkWidth(2).build());
-        register(context, BOPTreeFeatures.REDWOOD_TREE_LARGE, BOPBaseFeatures.REDWOOD_TREE, createRedwood(BOPBlocks.REDWOOD_WOOD).minHeight(45).maxHeight(60).trunkWidth(3).build());
+//        register(context, BOPTreeFeatures.REDWOOD_TREE, BOPBaseFeatures.REDWOOD_TREE, createRedwood(BOPBlocks.REDWOOD_LOG).minHeight(10).maxHeight(30).build());
+//        register(context, BOPTreeFeatures.REDWOOD_TREE_MEDIUM, BOPBaseFeatures.REDWOOD_TREE, createRedwood(BOPBlocks.REDWOOD_WOOD).minHeight(25).maxHeight(40).trunkWidth(2).build());
+//        register(context, BOPTreeFeatures.REDWOOD_TREE_LARGE, BOPBaseFeatures.REDWOOD_TREE, createRedwood(BOPBlocks.REDWOOD_WOOD).minHeight(45).maxHeight(60).trunkWidth(3).build());
+
+        //Experiment:
+        register(context, BOPTreeFeatures.REDWOOD_TREE, BOPBaseFeatures.REDWOOD_TREE,
+                createRedwood(BOPBlocks.REDWOOD_LOG)
+                        .minHeight(2) // Reduced further
+                        .maxHeight(5) // Reduced further
+                        .trunkWidth(1) // Set trunk width to 1
+                        .build());
+
+        register(context, BOPTreeFeatures.REDWOOD_TREE_MEDIUM, BOPBaseFeatures.REDWOOD_TREE,
+                createRedwood(BOPBlocks.REDWOOD_WOOD)
+                        .minHeight(5) // Reduced further
+                        .maxHeight(8) // Reduced further
+                        .trunkWidth(1) // Set trunk width to 1
+                        .build());
+
+        register(context, BOPTreeFeatures.REDWOOD_TREE_LARGE, BOPBaseFeatures.REDWOOD_TREE,
+                createRedwood(BOPBlocks.REDWOOD_WOOD)
+                        .minHeight(8) // Reduced further
+                        .maxHeight(10) // Reduced further
+                        .trunkWidth(1) // Set trunk width to 1
+                        .build());
+
+
 
     }
     private static TaigaTreeConfiguration.Builder createRedwood(Block log)
