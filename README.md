@@ -42,3 +42,14 @@ This is not a finalized mod. This is minimum viable product (MVP) for education 
 
 ## 🖼️ Images
 ![image](https://github.com/user-attachments/assets/4fa6e694-c34f-4874-ae12-cc161650c71f)
+![Screenshot 2025-01-24 214016](https://github.com/user-attachments/assets/353946a0-e532-4e93-af74-65c8cadd1944)
+![Screenshot 2025-01-24 214419](https://github.com/user-attachments/assets/b7b20c50-5db8-43d7-b8a4-d54e816e2775)
+![Screenshot 2025-01-24 214458](https://github.com/user-attachments/assets/516d7452-49ef-4fd4-af68-8ef8181995b9)
+![Screenshot 2025-01-24 214712](https://github.com/user-attachments/assets/757e66fc-3c7a-459a-a46b-802bda6570a3)
+![Screenshot 2025-01-24 214038](https://github.com/user-attachments/assets/f06402bd-d5b1-4d75-ad4a-76cfebaafba0)
+![Screenshot 2025-01-24 214111](https://github.com/user-attachments/assets/a07b5d7f-68c2-4a5e-babd-38b6c6e45781)
+![Screenshot 2025-01-24 214152](https://github.com/user-attachments/assets/6d3da0a7-355d-4f01-82bd-f8e626250882)
+![Screenshot 2025-01-24 214221](https://github.com/user-attachments/assets/04750bb6-d8d5-488a-9826-9550f6cd62dd)
+![Screenshot 2025-01-24 214139](https://github.com/user-attachments/assets/07c9e14e-c32b-43ef-aff8-0d453783afbb)
+![Screenshot 2025-01-24 214302](https://github.com/user-attachments/assets/93aade3a-72e6-42b8-a7bc-c4d6486e4956)
+
