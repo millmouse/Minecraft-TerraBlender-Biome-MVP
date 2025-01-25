@@ -90,7 +90,8 @@ public class BOPOverworldBiomes {
         BiomeDefaultFeatures.addSurfaceFreezing(builder);
     }
 
-    public static Biome redwoodForest(HolderGetter<PlacedFeature> placedFeatureGetter, HolderGetter<ConfiguredWorldCarver<?>> carverGetter) {
+    public static Biome redwoodForest(HolderGetter<PlacedFeature> placedFeatureGetter, HolderGetter<ConfiguredWorldCarver<?>> carverGetter)
+    {
         // Mob spawns
         MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
         BiomeDefaultFeatures.commonSpawns(spawnBuilder);

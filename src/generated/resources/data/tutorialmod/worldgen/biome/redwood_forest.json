@@ -82,7 +82,8 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "tutorialmod:patch_fern_4",
-      "tutorialmod:patch_large_fern_extra"
+      "tutorialmod:patch_large_fern_extra",
+      "tutorialmod:moss_splatter"
     ],
     [
       "minecraft:freeze_top_layer"
