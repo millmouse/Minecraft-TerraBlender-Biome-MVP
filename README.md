@@ -39,3 +39,6 @@ It is also, for the most part, not my own code verbatim. As described above, the
 
 
 This is not a finalized mod. This is minimum viable product (MVP) for education purposes only.and is being used as intention for helping modders, such as myself, and others.
+
+## 🖼️ Images
+![image](https://github.com/user-attachments/assets/4fa6e694-c34f-4874-ae12-cc161650c71f)
