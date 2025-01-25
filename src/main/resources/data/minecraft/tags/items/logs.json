@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+	"#tutorialmod:redwood_logs",
+	"#tutorialmod:dead_logs"
+  ]
+}

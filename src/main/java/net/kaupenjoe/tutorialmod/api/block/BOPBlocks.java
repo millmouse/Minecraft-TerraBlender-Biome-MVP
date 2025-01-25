@@ -13,6 +13,4 @@ public class BOPBlocks {
     public static Block DEAD_BRANCH;
     public static Block DEAD_LOG;
     public static Block DEAD_WOOD;
-
-
 }
